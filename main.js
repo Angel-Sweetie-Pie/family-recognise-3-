@@ -37,7 +37,7 @@ Webcam.set ({
         } else {
           // The results are in an array ordered by confidence.
           console.log(results);
-          document.getElementById("result_object_name").innerHTML = results[0].label;
-          document.getElementById("result_object_accuracy").innerHTML = results[0].confidence.toFixed(3);
+          document.getElementById("result_object").innerHTML = results[0].label;
+          document.getElementById("accuracy").innerHTML = results[0].confidence.toFixed(3);
         }
       }
